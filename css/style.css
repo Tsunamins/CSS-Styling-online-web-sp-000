@@ -42,5 +42,6 @@ figcaption {
 
 /*descendant selector*/
 /*ex style h1 within the logo div, but style h2 to be diff */
-#logo h1{
+#logo h1 { /* where there is logo id, go one in and style h1 */
+
   
