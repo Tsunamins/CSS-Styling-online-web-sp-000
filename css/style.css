@@ -33,4 +33,7 @@ figcaption {
   text-shadow: 0 2px 3px #000; /* shadow's height width blur radius and color */
   /* add to desired elements by class="milk-text" */
 }
+
+/* id selector styling applies to one unique element per page */
+
   
