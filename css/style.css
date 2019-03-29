@@ -52,12 +52,22 @@ figcaption {
 
 /*pseudo class selectors*/
 /*select element based on relationship to others or event states (visted link ie) */
+/*would need to add a details id to the links at the bottom of various html pages */
 
 #details a:link, a:visited {/* where a is in a link state, unvisited */
   color: black;
   text-decoration: none;
 }
 
+#details a:hover {
+    color: black;
+    text-decoration: underline;
+}
 
+#details a:active{ /*as in clicked and released */
+  color: red;
+}
+}
+}
 
   
