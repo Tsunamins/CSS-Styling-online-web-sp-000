@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+/* these @imports must be at the top of a css file */
+/*to integrate for example the clicker script would use- font-family: 'Clicker Script'; cursive; */
+
 /* comments in css */
 
 p {/* select all <p> */
@@ -9,9 +14,23 @@ figcaption {
   font-weight: normal;
   font-size: 0.75em;
   line-height: 1.5em; 
-  font-family: Georgia, "New Times Roman", serif; /* these are alternatives if one font isn't available */
+  font-family: 'Elsie Swash Caps', "New Times Roman", serif; /* these are alternatives if one font isn't available */
   /* alternate shorthand- font: normal 0.75em/1.5em Georgia, "New Times Roman", serif; */
   /* font weight-normal, font size/line-height, font family with alternatives */ 
-  color: #000000;
+  color: rgba(127, 21, 25, 1); /* rgba red, green, blue, then opacity range 0 through 1 */
+  /*color: #000000;*/
+  /* 0 absence of light thus color black, upper scales get into letter F being the highest,
+  goes red green blue, if duplicate numbers i.e #8844CC, can be written #84C */
+  text-align: right;
   
 }
+
+/* Class selector styling */
+
+.milk-text {/*select elements with class="milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000; /* shadow's height width blur radius and color */
+  /* add to desired elements by class="milk-text" */
+}
+  
