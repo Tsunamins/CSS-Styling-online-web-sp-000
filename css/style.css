@@ -36,5 +36,11 @@ figcaption {
 
 /* id selector styling applies to one unique element per page */
 /* for example put a box around a certain set of headings */
+#logo {/* select elements w id="logo" */
+  background: aqua;
+}
 
+/*descendant selector*/
+/*ex style h1 within the logo div, but style h2 to be diff */
+#logo h1{
   
